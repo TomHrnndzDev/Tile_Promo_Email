@@ -12,14 +12,9 @@
     <style>
         /* MOBILE */
         @media only screen and (max-width:600px) {
-            .image {
-                max-width: 242px;
-            }
 
-            /* .image {
-                max-width: 242px;
-            } */
 
+            .jumbo {}
 
             .size90 {
                 width: 90%;
@@ -28,12 +23,50 @@
             .size100 {
                 width: 100% !important;
                 text-align: center !important;
+                padding-bottom: 80px !important;
             }
 
-            .size100 .bord {
-                border: none !important;
+
+
+            .size100 .left {
+                width: 60% !important;
+                text-align: center !important;
+                margin: 80px 0px 80px 120px !important;
 
             }
+
+            .size100 .right {
+                width: 60% !important;
+                text-align: center !important;
+                margin: 0px 120px 0 0px !important;
+            }
+
+            .vip-container {
+                max-width: 100% !important;
+                text-align: center !important;
+            }
+
+            .left-table {
+                margin-left: 60px !important;
+                width: 80% !important;
+                text-align: center !important;
+                border-right: none !important;
+                height: 350px;
+                border-bottom: #8E4545 2px solid;
+            }
+
+            .right-table {
+                margin: 10px 60px 10px 0px !important;
+                width: 80% !important;
+                text-align: center !important;
+                border-right: none !important;
+            }
+
+
+
+
+
+
 
             /* fix spacing and border for vip deals and button */
 
@@ -72,14 +105,16 @@
                                     <td>
                                         <!-- start of vip deals -->
                                         <table cellspacing="0" cellpadding="0" border="0" align="center" width="600"
-                                            role="presentation" style="border-collapse:collapse;background: #5FE5DF"
+                                            role="presentation"
+                                            style="border-collapse:collapse;background: #5FE5DF; margin-top:40px"
                                             class="size100">
                                             <tr>
-                                                <td class="deal-container" style="border-collapse:collapse">
+                                                <td class="vip-container" style="border-collapse:collapse">
                                                     <!-- left vip deal -->
-                                                    <table class="size100 bord" width="50%" align="left" cellspacing="0"
+                                                    <table class="left-table" width="50%" align="left" cellspacing="0"
                                                         cellpadding="0" border="0"
-                                                        style="border-collapse:collapse; border-right:3px solid #8E4545  ">
+                                                        style="border-collapse:collapse; border-right:2px solid #8E4545"
+                                                        margin-right="-1px">
 
                                                         <!-- how to center border -->
 
@@ -109,7 +144,7 @@
                                                     </table>
                                                     <!-- left vip deal -->
                                                     <!-- right vip deal -->
-                                                    <table class="size100" width="50%" align="right" cellspacing="0"
+                                                    <table class="right-table" width="50%" align="right" cellspacing="0"
                                                         cellpadding="0" border="0"
                                                         style="border-collapse:collapse; background:#5FE5DF ">
 
@@ -167,9 +202,9 @@
                                             <tr>
                                                 <td style="border-collapse:collapse">
                                                     <!-- jumbo Tile -->
-                                                    <img src="https://i.ibb.co/cwqqCPH/tile.gif" class="size100"
+                                                    <img src="https://i.ibb.co/cwqqCPH/tile.gif" class="jumbo"
                                                         border="0" width="600" alt="jumbo banner"
-                                                        style="border:0 none;height:auto;line-height: 100%;">
+                                                        style="border:0 none;height:auto;line-height: 100%; padding-bottom: 60px;padding-top: 60px;">
                                                 </td>
                                             </tr>
                                         </table>
@@ -180,14 +215,14 @@
                             </table>
                             <!-- end of header section -->
                             <!-- start of 4 deal section -->
-                            <table class="deal-table" width="100%" align="center" cellspacing="0" cellpadding="0"
-                                padding="0" border="0" style="background:#D23737; padding-bottom:20px">
+                            <table width="100%" align="center" cellspacing="0" cellpadding="0" padding="0" border="0"
+                                style="background:#D23737; padding-bottom:20px" class="size100">
                                 <!-- start of top section -->
                                 <tr>
-                                    <td class="main container" style="border-collapse:collapse">
+                                    <td class="deal container" style="border-collapse:collapse">
                                         <!-- top deal row -->
                                         <!--start of top left -->
-                                        <table class="left-column" height="400" align="left" cellspacing="0"
+                                        <table class="size100 left" height="400" align="left" cellspacing="0"
                                             cellpadding="0" border="0"
                                             style="border-radius:6px;width:30%  ;background:#FFFAF0;padding:4px; margin: 20px 0px 0px 25px;">
 
@@ -244,7 +279,7 @@
                                         </table>
                                         <!-- end of top left -->
                                         <!-- start of top right -->
-                                        <table class="right-column" width="30%" height="400" align="right"
+                                        <table class="size100 right" width="30%" height="400" align="right"
                                             cellspacing="0" cellpadding="0" border="0"
                                             style="border-radius:6px  ;background:#FFFAF0; padding: 4px; margin: 20px 25px 0px 0px;">
 
@@ -304,10 +339,10 @@
                                 <!-- end of top deal section-->
                                 <!-- start of bottom section -->
                                 <tr>
-                                    <td class="main container" style="border-collapse:collapse">
+                                    <td class="deal container" style="border-collapse:collapse">
                                         <!-- top deal row -->
-                                        <!--start of top left -->
-                                        <table class="left-column" height="400" align="left" cellspacing="0"
+                                        <!--start of left -->
+                                        <table class="size100 left" height="400" align="left" cellspacing="0"
                                             cellpadding="0" border="0"
                                             style="border-radius:6px;width:30%  ;background:#FFFAF0;padding:4px; margin: 20px 0px 0px 25px;">
 
@@ -362,9 +397,9 @@
                                                 </td>
                                             </tr>
                                         </table>
-                                        <!-- end of top left -->
-                                        <!-- start of top right -->
-                                        <table class="right-column" width="30%" height="400" align="right"
+                                        <!-- end of left -->
+                                        <!-- start of right -->
+                                        <table class="size100 right last" width="30%" height="400" align="right"
                                             cellspacing="0" cellpadding="0" border="0"
                                             style="border-radius:6px  ;background:#FFFAF0; padding: 4px; margin: 20px 25px 0px 0px;">
 
@@ -418,7 +453,7 @@
                                                 </td>
                                             </tr>
                                         </table>
-                                        <!-- end of top right -->
+                                        <!-- end of right -->
                                     </td>
                                 </tr>
                                 <!-- end of bottom section -->
