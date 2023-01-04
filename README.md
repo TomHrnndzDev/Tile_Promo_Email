@@ -1,2 +1,2 @@
-# prom-email-
+# promotional email
 this is my first email with only tables
